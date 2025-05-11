@@ -5,13 +5,13 @@
   "homepage": "https://galers.github.io/sport_ua",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*",
-    "deploy": "gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d dist",
+    "build": "vite build",
     "format": "prettier --write src/"
   },
   "dependencies": {
