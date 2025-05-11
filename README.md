@@ -1,9 +1,10 @@
 # Test Assignment: Front-end Developer
 
+## [Project](https://galers.github.io/sport_ua/)
+
 ## Опис завдання
 
 Реалізувати адаптивну таблицю турнірної таблиці з наступними вимогами:
-[Project](https://galers.github.io/sport_ua/)
 ## Вимоги до верстки
 
 - Desktop: ≥ 1024px
